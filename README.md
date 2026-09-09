@@ -12,9 +12,13 @@
 </p>
 
 <p align="center">
-  <a href="https://vinicius-duran-portifolio.vercel.app"><img src="https://img.shields.io/badge/Portfólio-vinicius--duran--portifolio.vercel.app-efe8dc?style=flat-square&labelColor=221c18&logo=vercel&logoColor=efe8dc" alt="Portfólio"></a>
+  <a href="https://vduran.vercel.app"><img src="https://img.shields.io/badge/Portfólio-vduran.vercel.app-efe8dc?style=flat-square&labelColor=221c18&logo=vercel&logoColor=efe8dc" alt="Portfólio"></a>
   <a href="https://www.linkedin.com/in/vinicius-duran"><img src="https://img.shields.io/badge/LinkedIn-vinicius--duran-efe8dc?style=flat-square&labelColor=221c18&logo=linkedin&logoColor=efe8dc" alt="LinkedIn"></a>
   <a href="https://wa.me/5548992110831"><img src="https://img.shields.io/badge/WhatsApp-(48)%2099211--0831-efe8dc?style=flat-square&labelColor=221c18&logo=whatsapp&logoColor=efe8dc" alt="WhatsApp"></a>
+</p>
+
+<p align="center">
+  <img src="contrib.svg" alt="Calendário de contribuições no GitHub no último ano" width="100%">
 </p>
 
 ## Sobre
@@ -36,7 +40,7 @@ escrito onde a regra é de negócio.
 | **Taki Rastreadores** | Site B2B de rastreamento e gestão de frotas, com SEO técnico | HTML · CSS · JS | [site](https://taki-eta.vercel.app) · [código](https://github.com/Vinicius-Duran/Taki) |
 | **Meta&Marketing** | Site de agência de marketing digital, com uma página por serviço | HTML · CSS · JS | [site](https://landpage-2cct-six.vercel.app) · [código](https://github.com/Vinicius-Duran/landpage) |
 | **Loja em C#** | Solução .NET 6 em quatro projetos, com domínio e dados isolados da API | C# · ASP.NET · .NET 6 | [código](https://github.com/Vinicius-Duran/Loja-CSharp) |
-| **Este portfólio** | Design system próprio, motion com GSAP e camada de dados separada | React 19 · Vite · GSAP · anime.js | [site](https://vinicius-duran-portifolio.vercel.app) · [código](https://github.com/Vinicius-Duran/ViniciusDuranPortifolio) |
+| **Este portfólio** | Design system próprio, motion com GSAP e camada de dados separada | React 19 · Vite · GSAP · anime.js | [site](https://vduran.vercel.app) · [código](https://github.com/Vinicius-Duran/ViniciusDuranPortifolio) |
 
 ## Stack
 
@@ -47,7 +51,7 @@ escrito onde a regra é de negócio.
 
 ## Contato
 
-- Portfólio — [vinicius-duran-portifolio.vercel.app](https://vinicius-duran-portifolio.vercel.app)
+- Portfólio — [vduran.vercel.app](https://vduran.vercel.app)
 - LinkedIn — [linkedin.com/in/vinicius-duran](https://www.linkedin.com/in/vinicius-duran)
 - WhatsApp — [(48) 99211-0831](https://wa.me/5548992110831)
 

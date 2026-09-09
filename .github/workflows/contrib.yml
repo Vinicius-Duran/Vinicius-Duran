@@ -1,0 +1,43 @@
+name: Atualizar o calendário de contribuições
+
+# Um calendário parado no tempo é pior do que nenhum: isto redesenha o
+# contrib.svg todo dia com os dados reais do perfil.
+
+on:
+  schedule:
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/contrib.mjs'
+      - '.github/workflows/contrib.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  desenhar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Gerar contrib.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/contrib.mjs
+
+      - name: Publicar se mudou
+        run: |
+          if git diff --quiet -- contrib.svg; then
+            echo "Sem mudança no calendário."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add contrib.svg
+          git commit -m "Atualizar o calendário de contribuições"
+          git push
