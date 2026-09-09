@@ -36,9 +36,9 @@ escrito onde a regra é de negócio.
 | Projeto | O que é | Stack | Links |
 |---|---|---|---|
 | **Sistema Financeiro** | CRUD de usuários, centros de custo, receitas, contas e lançamentos, com autenticação por token | React · Node · Express · MySQL · JWT | [front](https://github.com/Vinicius-Duran/Finance-front) · [back](https://github.com/Vinicius-Duran/Finance-back) |
-| **Todah Produções** | Site institucional e vitrine de artistas de um agenciamento musical | React 19 · Vite 6 · Tailwind v4 | [site](https://toda-producoes.vercel.app) · [código](https://github.com/Vinicius-Duran/toda-produ-es) |
-| **Taki Rastreadores** | Site B2B de rastreamento e gestão de frotas, com SEO técnico | HTML · CSS · JS | [site](https://taki-eta.vercel.app) · [código](https://github.com/Vinicius-Duran/Taki) |
-| **Meta&Marketing** | Site de agência de marketing digital, com uma página por serviço | HTML · CSS · JS | [site](https://landpage-2cct-six.vercel.app) · [código](https://github.com/Vinicius-Duran/landpage) |
+| **Todah Produções** | Site institucional e vitrine de artistas de um agenciamento musical | React 19 · Vite 6 · Tailwind v4 | [código](https://github.com/Vinicius-Duran/toda-produ-es) |
+| **Taki Rastreadores** | Site B2B de rastreamento e gestão de frotas, com SEO técnico | HTML · CSS · JS | [código](https://github.com/Vinicius-Duran/Taki) |
+| **Meta&Marketing** | Site de agência de marketing digital, com uma página por serviço | HTML · CSS · JS | [código](https://github.com/Vinicius-Duran/landpage) |
 | **Loja em C#** | Solução .NET 6 em quatro projetos, com domínio e dados isolados da API | C# · ASP.NET · .NET 6 | [código](https://github.com/Vinicius-Duran/Loja-CSharp) |
 | **Este portfólio** | Design system próprio, motion com GSAP e camada de dados separada | React 19 · Vite · GSAP · anime.js | [site](https://vduran.vercel.app) · [código](https://github.com/Vinicius-Duran/ViniciusDuranPortifolio) |
 
