@@ -40,15 +40,10 @@ escrito onde a regra é de negócio.
 
 ## Stack
 
-**Front** React · React Native · TypeScript · Vite · CSS/SCSS · Tailwind · GSAP · anime.js
-**Back** C# · .NET · ASP.NET Core · Node.js · Express · Python · APIs REST
-**Dados** SQL Server · MySQL · PostgreSQL
-**Plataforma** Docker · Git · GitHub Actions · Azure · Vercel · Vitest · ESLint
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vinicius-Duran&show_icons=true&hide_border=true&hide_title=true&bg_color=14100c&icon_color=d9743f&text_color=efe8dc&ring_color=d9743f" alt="Estatísticas do GitHub" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinicius-Duran&layout=compact&hide_border=true&hide_title=true&langs_count=8&bg_color=14100c&text_color=efe8dc" alt="Linguagens mais usadas" height="160">
-</p>
+- **Front** — React · React Native · TypeScript · Vite · CSS/SCSS · Tailwind · GSAP · anime.js
+- **Back** — C# · .NET · ASP.NET Core · Node.js · Express · Python · APIs REST
+- **Dados** — SQL Server · MySQL · PostgreSQL
+- **Plataforma** — Docker · Git · GitHub Actions · Azure · Vercel · Vitest · ESLint
 
 ## Contato
 
