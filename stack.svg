@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806 256" width="806" height="256"
+     role="img" aria-label="Stack: front — React, React Native, TypeScript, Vite, CSS/SCSS, Tailwind, GSAP, anime.js; back — C#, .NET, ASP.NET Core, Node.js, Express, Python, APIs REST; dados — SQL Server, MySQL, PostgreSQL; plataforma — Docker, Git, GitHub Actions, Azure, Vercel, Vitest, ESLint.">
+  <title>Stack</title>
+
+  <!-- Gerado por scripts/cards.mjs. Não editar à mão. -->
+
+  <defs>
+    <style><![CDATA[
+      .display { font-family: 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 800; }
+      .body    { font-family: 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 500; }
+      .mono    { font-family: 'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace; font-weight: 500; }
+      .anim { transform-box: fill-box; }
+
+      .chip  { animation: sobe .55s cubic-bezier(0.23,1,0.32,1) both; }
+      .linha { animation: sobe .55s cubic-bezier(0.23,1,0.32,1) both; }
+      @keyframes sobe {
+        from { opacity: 0; transform: translateY(9px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .tag { animation: sobe .55s cubic-bezier(0.23,1,0.32,1) both; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .chip, .linha, .tag { animation: none; opacity: 1; transform: none; }
+      }
+    ]]></style>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="806" height="256" rx="14" fill="#14100c"/>
+  <rect width="806" height="256" rx="14" fill="#221c18" opacity=".55"/>
+  <rect width="806" height="256" rx="14" filter="url(#grain)" opacity=".05"/>
+  <rect x="12" y="12" width="782" height="232" rx="12" fill="none" stroke="#d9743f" stroke-opacity=".3" stroke-width="1"/>
+
+  <text class="mono tag" x="28" y="46" font-size="13" fill="#d9743f" letter-spacing="1.4">stack</text>
+
+    <text class="mono anim linha" x="108" y="76" font-size="12" fill="#d9743f" text-anchor="end">front</text>
+    <g class="anim chip" style="animation-delay:0.00s">
+      <rect x="132" y="59" width="55" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="159.5" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">React</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.04s">
+      <rect x="195" y="59" width="101" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="245.5" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">React Native</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.09s">
+      <rect x="304" y="59" width="88" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="348" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">TypeScript</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.14s">
+      <rect x="400" y="59" width="48" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="424" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Vite</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.18s">
+      <rect x="456" y="59" width="75" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="493.5" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">CSS/SCSS</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.22s">
+      <rect x="539" y="59" width="75" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="576.5" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Tailwind</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.27s">
+      <rect x="622" y="59" width="48" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="646" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">GSAP</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.32s">
+      <rect x="678" y="59" width="75" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="715.5" y="76" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">anime.js</text>
+    </g>
+    <text class="mono anim linha" x="108" y="120" font-size="12" fill="#d9743f" text-anchor="end">back</text>
+    <g class="anim chip" style="animation-delay:0.36s">
+      <rect x="132" y="103" width="35" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="149.5" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">C#</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.40s">
+      <rect x="175" y="103" width="48" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="199" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">.NET</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.45s">
+      <rect x="231" y="103" width="101" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="281.5" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">ASP.NET Core</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.49s">
+      <rect x="340" y="103" width="68" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="374" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Node.js</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.54s">
+      <rect x="416" y="103" width="68" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="450" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Express</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.58s">
+      <rect x="492" y="103" width="62" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="523" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Python</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.63s">
+      <rect x="562" y="103" width="81" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="602.5" y="120" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">APIs REST</text>
+    </g>
+    <text class="mono anim linha" x="108" y="164" font-size="12" fill="#d9743f" text-anchor="end">dados</text>
+    <g class="anim chip" style="animation-delay:0.67s">
+      <rect x="132" y="147" width="88" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="176" y="164" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">SQL Server</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.72s">
+      <rect x="228" y="147" width="55" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="255.5" y="164" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">MySQL</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.77s">
+      <rect x="291" y="147" width="88" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="335" y="164" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">PostgreSQL</text>
+    </g>
+    <text class="mono anim linha" x="108" y="208" font-size="12" fill="#d9743f" text-anchor="end">plataforma</text>
+    <g class="anim chip" style="animation-delay:0.81s">
+      <rect x="132" y="191" width="62" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="163" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Docker</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.85s">
+      <rect x="202" y="191" width="42" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="223" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Git</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.90s">
+      <rect x="252" y="191" width="114" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="309" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">GitHub Actions</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.94s">
+      <rect x="374" y="191" width="55" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="401.5" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Azure</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.99s">
+      <rect x="437" y="191" width="62" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="468" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Vercel</text>
+    </g>
+    <g class="anim chip" style="animation-delay:1.03s">
+      <rect x="507" y="191" width="62" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="538" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">Vitest</text>
+    </g>
+    <g class="anim chip" style="animation-delay:1.08s">
+      <rect x="577" y="191" width="62" height="26" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="608" y="208" font-size="11.5" fill="#efe8dc" fill-opacity=".78" text-anchor="middle">ESLint</text>
+    </g>
+</svg>

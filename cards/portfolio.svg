@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 150" width="392" height="150"
+     role="img" aria-label="Este portfólio: Design system próprio, motion com GSAP e a camada de dados separada da apresentação.">
+  <title>Este portfólio</title>
+
+  <!-- Gerado por scripts/cards.mjs. Não editar à mão. -->
+
+  <defs>
+    <style><![CDATA[
+      .display { font-family: 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 800; }
+      .body    { font-family: 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 500; }
+      .mono    { font-family: 'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace; font-weight: 500; }
+      .anim { transform-box: fill-box; }
+
+      /* O título é escrito da esquerda para a direita, como no banner. */
+      /* O título é escrito da esquerda para a direita, uma vez. */
+      .wipe { transform-origin: left center; animation: wipe .8s cubic-bezier(0.77,0,0.175,1) both; }
+      @keyframes wipe {
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
+      }
+      .rule { transform-origin: left center; animation: rule .6s cubic-bezier(0.23,1,0.32,1) .5s both; }
+      @keyframes rule {
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
+      }
+      .linha { animation: sobe .6s cubic-bezier(0.23,1,0.32,1) both; }
+      .chip  { animation: sobe .6s cubic-bezier(0.23,1,0.32,1) both; }
+      @keyframes sobe {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .nota { animation: sobe .6s cubic-bezier(0.23,1,0.32,1) .9s both; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wipe, .rule, .linha, .chip, .nota { animation: none; opacity: 1; transform: none; }
+      }
+    ]]></style>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+    <clipPath id="t"><rect class="anim wipe" x="26" y="24" width="314" height="34"/></clipPath>
+  </defs>
+
+  <rect width="392" height="150" rx="14" fill="#14100c"/>
+  <rect width="392" height="150" rx="14" fill="#221c18" opacity=".55"/>
+  <rect width="392" height="150" rx="14" filter="url(#grain)" opacity=".05"/>
+  <rect x="12" y="12" width="368" height="126" rx="12" fill="none" stroke="#d9743f" stroke-opacity=".3" stroke-width="1"/>
+
+  <g clip-path="url(#t)">
+    <text class="display" x="26" y="50" font-size="21" letter-spacing="-.5" fill="#efe8dc">Este portfólio</text>
+  </g>
+  <text class="mono nota anim" x="366" y="48" font-size="11" fill="#efe8dc" fill-opacity=".35" text-anchor="end">2026</text>
+  <rect class="anim rule" x="26" y="60" width="86" height="2" fill="#d9743f"/>
+
+  <text class="body linha anim" x="26" y="84" font-size="12.5" fill="#efe8dc" fill-opacity=".6" style="animation-delay:0.25s">Design system próprio, motion com GSAP e a</text>
+  <text class="body linha anim" x="26" y="102" font-size="12.5" fill="#efe8dc" fill-opacity=".6" style="animation-delay:0.33s">camada de dados separada da apresentação.</text>
+
+    <g class="anim chip" style="animation-delay:0.50s">
+      <rect x="26" y="112" width="75" height="24" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="63.5" y="128" font-size="11" fill="#efe8dc" fill-opacity=".72" text-anchor="middle">React 19</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.59s">
+      <rect x="109" y="112" width="48" height="24" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="133" y="128" font-size="11" fill="#efe8dc" fill-opacity=".72" text-anchor="middle">Vite</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.68s">
+      <rect x="165" y="112" width="48" height="24" rx="8" fill="#d9743f" fill-opacity=".18" stroke="#d9743f" stroke-opacity=".5"/>
+      <text class="mono" x="189" y="128" font-size="11" fill="#efe8dc" fill-opacity=".95" text-anchor="middle">GSAP</text>
+    </g>
+    <g class="anim chip" style="animation-delay:0.77s">
+      <rect x="221" y="112" width="75" height="24" rx="8" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="258.5" y="128" font-size="11" fill="#efe8dc" fill-opacity=".72" text-anchor="middle">anime.js</text>
+    </g>
+</svg>

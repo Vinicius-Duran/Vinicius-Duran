@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806 268" width="806" height="268"
+     role="img" aria-label="Desenvolvedor full-stack em Florianopolis. Trabalho nas tres camadas: interface, API e banco.">
+  <title>Sobre — Vinicius Duran</title>
+
+  <!-- Gerado por scripts/cards.mjs. Não editar à mão. -->
+
+  <defs>
+    <style><![CDATA[
+      .display { font-family: 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 800; }
+      .body    { font-family: 'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 500; }
+      .mono    { font-family: 'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace; font-weight: 500; }
+      .anim { transform-box: fill-box; }
+
+      /* Entrada única: o cartão monta e fica. Laço aqui faria o conteúdo
+         sumir por um instante a cada volta. */
+      .linha { animation: linha .6s cubic-bezier(0.23,1,0.32,1) both; }
+      @keyframes linha {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      .camada { animation: camada .7s cubic-bezier(0.23,1,0.32,1) both; }
+      @keyframes camada {
+        from { opacity: 0; transform: translateX(14px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+
+      /* O fio que liga as três camadas é desenhado depois delas. */
+      .fio { stroke-dasharray: 150; animation: fio 1s cubic-bezier(0.23,1,0.32,1) 1.5s both; }
+      @keyframes fio {
+        from { stroke-dashoffset: 150; }
+        to   { stroke-dashoffset: 0; }
+      }
+
+      .tag { animation: linha .6s cubic-bezier(0.23,1,0.32,1) both; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .linha, .camada, .fio, .tag { animation: none; opacity: 1; transform: none; stroke-dashoffset: 0; }
+      }
+    ]]></style>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="806" height="268" rx="14" fill="#14100c"/>
+  <rect width="806" height="268" rx="14" fill="#221c18" opacity=".55"/>
+  <rect width="806" height="268" rx="14" filter="url(#grain)" opacity=".05"/>
+  <rect x="12" y="12" width="782" height="244" rx="12" fill="none" stroke="#d9743f" stroke-opacity=".3" stroke-width="1"/>
+
+  <text class="mono tag" x="28" y="46" font-size="13" fill="#d9743f" letter-spacing="1.4">sobre</text>
+
+  <g>
+    <text class="anim linha body" x="28" y="84" font-size="16" fill="#efe8dc" fill-opacity=".92" style="animation-delay:0.00s">Desenvolvedor full-stack em Florianópolis.</text>
+    <text class="anim linha body" x="28" y="105" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.09s">Trabalho nas três camadas: a interface que as pessoas</text>
+    <text class="anim linha body" x="28" y="126" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.18s">usam, a API que a sustenta e o banco onde o dado de</text>
+    <text class="anim linha body" x="28" y="147" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.27s">fato mora.</text>
+    <text class="anim linha body" x="28" y="189" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.36s">No front, React com Vite, design system em CSS custom</text>
+    <text class="anim linha body" x="28" y="210" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.45s">properties e motion com GSAP e anime.js. No back, C#</text>
+    <text class="anim linha body" x="28" y="231" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.54s">com ASP.NET Core e Node com Express, sobre SQL Server</text>
+    <text class="anim linha body" x="28" y="252" font-size="15" fill="#efe8dc" fill-opacity=".62" style="animation-delay:0.63s">ou MySQL.</text>
+  </g>
+
+  <g>
+    <line class="fio" x1="524" y1="86" x2="524" y2="214" stroke="#d9743f" stroke-opacity=".55" stroke-width="1" stroke-dasharray="150"/>
+    <g class="anim camada" style="animation-delay:0.90s">
+      <circle cx="524" cy="94" r="4" fill="#d9743f"/>
+      <rect x="544" y="72" width="234" height="46" rx="10" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="562" y="93" font-size="13" fill="#efe8dc" fill-opacity=".9">interface</text>
+      <text class="mono" x="562" y="108" font-size="10" fill="#efe8dc" fill-opacity=".42">React · Vite · GSAP</text>
+    </g>
+    <g class="anim camada" style="animation-delay:1.06s">
+      <circle cx="524" cy="156" r="4" fill="#d9743f"/>
+      <rect x="544" y="134" width="234" height="46" rx="10" fill="#efe8dc" fill-opacity=".04" stroke="#d9743f" stroke-opacity=".4"/>
+      <text class="mono" x="562" y="155" font-size="13" fill="#efe8dc" fill-opacity=".9">API</text>
+      <text class="mono" x="562" y="170" font-size="10" fill="#efe8dc" fill-opacity=".42">C# · .NET · Node</text>
+    </g>
+    <g class="anim camada" style="animation-delay:1.22s">
+      <circle cx="524" cy="218" r="4" fill="#d9743f"/>
+      <rect x="544" y="196" width="234" height="46" rx="10" fill="#efe8dc" fill-opacity=".06" stroke="#efe8dc" stroke-opacity=".16"/>
+      <text class="mono" x="562" y="217" font-size="13" fill="#efe8dc" fill-opacity=".9">banco</text>
+      <text class="mono" x="562" y="232" font-size="10" fill="#efe8dc" fill-opacity=".42">SQL Server · MySQL</text>
+    </g>
+  </g>
+</svg>

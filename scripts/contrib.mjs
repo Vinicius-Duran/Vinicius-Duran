@@ -127,12 +127,13 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
   <defs>
     <style><![CDATA[
       .mono { font-family: 'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace; font-weight: 500; }
-      .c { transform-box: fill-box; transform-origin: center; opacity: 0; animation: pop 12s cubic-bezier(0.23,1,0.32,1) infinite; }
+      /* Entrada única, e não laço: um cartão que pisca a cada volta faz o
+         leitor que chega na hora errada ver um quadro vazio. O atraso por
+         célula é que desenha a varredura. */
+      .c { transform-box: fill-box; transform-origin: center; animation: pop .45s cubic-bezier(0.23,1,0.32,1) both; }
       @keyframes pop {
-        0%   { opacity: 0; transform: scale(.4); }
-        4%   { opacity: 1; transform: scale(1); }
-        94%  { opacity: 1; transform: scale(1); }
-        100% { opacity: 0; transform: scale(1); }
+        from { opacity: 0; transform: scale(.4); }
+        to   { opacity: 1; transform: scale(1); }
       }
 
       .l0 { fill: #efe8dc; fill-opacity: .11; }
@@ -141,12 +142,10 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
       .l3 { fill: #d9743f; fill-opacity: .8; }
       .l4 { fill: #eb8f5f; }
 
-      .fade { opacity: 0; animation: fade 12s cubic-bezier(0.23,1,0.32,1) infinite; }
+      .fade { animation: fade .6s cubic-bezier(0.23,1,0.32,1) both; }
       @keyframes fade {
-        0%   { opacity: 0; transform: translateY(6px); }
-        8%   { opacity: 1; transform: translateY(0); }
-        94%  { opacity: 1; transform: translateY(0); }
-        100% { opacity: 0; }
+        from { opacity: 0; transform: translateY(6px); }
+        to   { opacity: 1; transform: translateY(0); }
       }
       .late { animation-delay: 1.6s; }
 
