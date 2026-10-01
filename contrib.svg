@@ -48,7 +48,7 @@
         fill="none" stroke="#d9743f" stroke-opacity=".3" stroke-width="1"/>
 
   <text class="mono fade" x="28" y="40" font-size="14" fill="#d9743f">112 contribuições no último ano</text>
-  <text class="mono fade" x="778" y="40" font-size="12" fill="#efe8dc" fill-opacity=".42" text-anchor="end">set 2025 → set 2026</text>
+  <text class="mono fade" x="778" y="40" font-size="12" fill="#efe8dc" fill-opacity=".42" text-anchor="end">set 2025 → out 2026</text>
 
   <g class="mono fade" font-size="10" fill="#efe8dc" fill-opacity=".38">
     <text x="52" y="54">set</text>
@@ -437,6 +437,7 @@
     <rect class="c l0" x="780" y="78" width="11" height="11" rx="2.5" style="animation-delay:1.676s"><title>2026-09-28: 0 contribuições</title></rect>
     <rect class="c l0" x="780" y="92" width="11" height="11" rx="2.5" style="animation-delay:1.688s"><title>2026-09-29: 0 contribuições</title></rect>
     <rect class="c l0" x="780" y="106" width="11" height="11" rx="2.5" style="animation-delay:1.700s"><title>2026-09-30: 0 contribuições</title></rect>
+    <rect class="c l0" x="780" y="120" width="11" height="11" rx="2.5" style="animation-delay:1.712s"><title>2026-10-01: 0 contribuições</title></rect>
   </g>
 
   <g class="fade late">
